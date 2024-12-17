@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Reset default margin and padding for body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;  /* Ensure full width */
+    height: 100%; /* Ensure full height */
+}
+
+.header {
+    background-color: #3c81df;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    box-sizing: border-box; /
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px; 
+    font-weight: bold;
+}
+
+.header-nav {
+    list-style: none; /* Removes bullet points */
+    margin: 0; /* Removes any default margin */
+    padding: 0;
+    display: flex; 
+}
+
+/* 'a' is for links */
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 40px /*add some space between each link Home About Projects*/
+}
+
+/* Style for the content section */
+.content {
+    display: flex;
+    margin-top: 20px; 
+}
+
+.content-intro{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+/* Style for the image */
+.content--img {
+    max-width: 90%;
+    max-height: auto; /* Keeps the image’s aspect ratio */
+}
+.image-container {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 20px;
+}
+
+.img-box{
+    height:400px;
+    width:300px;
+
+    border-width: 4px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.project {
+    margin-left: 20px;
+    display: flex;
+    gap: 50px; 
+    margin-bottom: 100px; 
+}
+
+.project-text {
+    font-size: 20px;
+    flex: 1; 
+}
+
+.project-video {
+    flex-shrink: 0;
+    padding-right: 20px;
+}
+
+.project-video iframe {
+    
+    max-width: 560px;
+    height: 315px; 
+}
+
+.about {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+    padding: 20px;  
+}
+
+.about--img {
+    max-width: 90%;
+    max-height: auto; /* Keeps the image’s aspect ratio */
+}
+.skills{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+    padding: 20px;  
+}
