@@ -8,5 +8,6 @@ This is my submission for CPSC 349: Web Frontend Engineering. Through this proje
 - CSS
 
 ## How to Run
-You can clone this repository on your local machine by performing the following: git clone https://github.com/beestrubz/My-Website-CPSC-349.git
+You can simply visit the URL for my page here: https://beestrubz.github.io/My-Website-CPSC-349/index.html
+You can also clone this repository on your local machine by performing the following: git clone https://github.com/beestrubz/My-Website-CPSC-349.git
 
