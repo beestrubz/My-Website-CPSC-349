@@ -8,8 +8,15 @@ html, body {
     height: 100%; /* Ensure full height */
 }
 
+body{
+    background-color: #1e1e2f;
+    color: white;
+    font-family: "Montserrat", serif;
+    
+}
+
 .header {
-    background-color: #3c81df;
+    background-color: rgba(0, 0, 0, 0.3);;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -23,6 +30,11 @@ html, body {
     color: white;
     font-size: 32px; 
     font-weight: bold;
+    margin-left: 30px;
+}
+
+.header-logo a:hover{
+    color: #c8c8d6;
 }
 
 .header-nav {
@@ -30,6 +42,10 @@ html, body {
     margin: 0; /* Removes any default margin */
     padding: 0;
     display: flex; 
+}
+
+.header-nav a:hover{
+    color: #c8c8d6;
 }
 
 /* 'a' is for links */
@@ -40,6 +56,19 @@ html, body {
     margin-right: 40px /*add some space between each link Home About Projects*/
 }
 
+a {
+    color: white;  /* Color for unvisited links */
+    text-decoration: none;  /* Remove the underline */
+}
+
+a:visited {
+    color: white;  /* Color for visited links */
+}
+
+a:active {
+    color: white;  /* Color for active (clicked) links */
+}
+
 /* Style for the content section */
 .content {
     display: flex;
@@ -47,9 +76,11 @@ html, body {
 }
 
 .content-intro{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 40px;
+    
 }
+
 
 /* Style for the image */
 .content--img {
@@ -73,20 +104,22 @@ html, body {
 }
 
 .project {
-    margin-left: 20px;
+    margin-left: 40px;
     display: flex;
     gap: 50px; 
-    margin-bottom: 100px; 
+    margin-bottom: 30px; 
+    align-items: center;
+    margin-right: 40px;
 }
 
 .project-text {
-    font-size: 20px;
+    font-size: 18px;
     flex: 1; 
 }
 
 .project-video {
     flex-shrink: 0;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 .project-video iframe {
