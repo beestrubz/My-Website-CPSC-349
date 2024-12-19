@@ -78,7 +78,6 @@ a:active {
 .content-intro{
     font-size: 18px;
     margin-left: 40px;
-    
 }
 
 
@@ -91,6 +90,7 @@ a:active {
     display: flex;
     justify-content: flex-end; 
     padding-right: 20px;
+    align-items: center;
 }
 
 .img-box{
@@ -141,7 +141,17 @@ a:active {
 }
 .skills{
     display: flex;
+    
     align-items: center;  
     justify-content: space-between; 
     padding: 20px;  
 }
+
+.car--img {
+    max-width: 55%;
+    max-height: auto;
+    margin-top: -500px;
+    margin-left: 850px;
+
+}
+
