@@ -148,9 +148,9 @@ a:active {
 }
 
 .alien--img {
-    max-width: 55%;
+    max-width: 50%;
     max-height: auto;
-    margin-top: -500px;
+    margin-top: -750px;
     margin-left: 850px;
 
 }
