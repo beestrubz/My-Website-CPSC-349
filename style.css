@@ -93,6 +93,18 @@ a:active {
     align-items: center;
 }
 
+.headshot-container {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 20px;
+    align-items: center;
+}
+
+.headshot--img {
+    max-width: 70%;
+    max-height: auto; /* Keeps the image’s aspect ratio */
+}
+
 .img-box{
     height:400px;
     width:300px;
@@ -153,5 +165,12 @@ a:active {
     margin-top: -1000px;
     margin-left: 850px;
 
+}
+
+.contact--img {
+    max-width: 30%;
+    max-height: auto; /* Keeps the image’s aspect ratio */
+    margin-top: 50px;
+    margin-left: 0px;
 }
 
